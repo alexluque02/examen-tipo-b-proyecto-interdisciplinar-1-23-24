@@ -43,6 +43,8 @@ public class User implements UserDetails {
 
     private String password;
 
+    private String email;
+
     private String avatar;
 
     private String fullName;
