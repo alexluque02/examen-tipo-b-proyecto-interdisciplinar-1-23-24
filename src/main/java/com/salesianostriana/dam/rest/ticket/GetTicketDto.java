@@ -12,13 +12,4 @@ public record GetTicketDto(
         LocalDateTime deadline
 ) {
 
-        public GetTicketDto of(Ticket t){
-                return new GetTicketDto(
-                        t.getId(),
-                        t.getTitle(),
-                        t.getDeadline()
-                );
-
-        }
-
 }
